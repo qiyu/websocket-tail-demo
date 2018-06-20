@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * @author qiyu
+ */
 public class TailLogThread extends Thread {
 
     private BufferedReader reader;
